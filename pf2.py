@@ -47,3 +47,16 @@ def minimum(a, n):
 # driver code
 a = [3, 4, 1, 3, 4, 5]
 minimum(a, len(a))
+
+
+# ---------------------------------------------------
+##Min() exp 1
+
+# printing the minimum of
+# 4, 12, 43.3, 19, 100
+print(min(4, 12, 43.3, 19, 100))
+
+##Min() exp 2
+# find the string with minimum length
+s = min("GfG", "Geeks", "GeeksWorld", key = len)
+print(s)
